@@ -12,5 +12,8 @@ python convert.py
 python reshape.py
 ```
 
+```bash
+python concatenate.py
+```
 
 
