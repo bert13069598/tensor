@@ -16,4 +16,6 @@ python reshape.py
 python concatenate.py
 ```
 
-
+```bash
+python tile.py
+```
