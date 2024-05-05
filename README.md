@@ -11,7 +11,12 @@ python convert.py
 ```bash
 python reshape.py
 ```
-
+#### 더미 차원
+```bash
+python unsqueeze.py
+```
+#### 연결
+concatenate, cat
 ```bash
 python concatenate.py
 ```
