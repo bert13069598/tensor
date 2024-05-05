@@ -19,3 +19,7 @@ python concatenate.py
 ```bash
 python tile.py
 ```
+
+```bash
+python stack.py
+```
