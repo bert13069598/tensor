@@ -12,6 +12,7 @@ python convert.py
 python reshape.py
 ```
 #### 더미 차원
+squeeze, unsqueeze
 ```bash
 python unsqueeze.py
 ```
