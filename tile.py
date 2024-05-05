@@ -18,6 +18,9 @@ print(tile4)
 print(tile5)
 print(tile6)
 
+expand1 = a_tensor.expand(3, -1)
+print(expand1)
+
 """
 [1 2 3 1 2 3 1 2 3]
 [[1 2 3]
@@ -41,6 +44,10 @@ tensor([[[1, 2, 3],
         [[1, 2, 3],
          [1, 2, 3],
          [1, 2, 3]]])
+tensor([[1, 2, 3],
+        [1, 2, 3],
+        [1, 2, 3]])
+
  """
 
 b = [[1], [2]]
@@ -48,6 +55,9 @@ b = [[1], [2]]
 b_tensor = torch.tensor(b)
 tile7 = torch.tile(b_tensor, (2, 3, 4))
 print(tile7)
+
+expand2 = b_tensor.expand(3, -1, -1)
+print(expand2)
 
 """
 tensor([[[1, 1, 1, 1],
@@ -63,4 +73,13 @@ tensor([[[1, 1, 1, 1],
          [2, 2, 2, 2],
          [1, 1, 1, 1],
          [2, 2, 2, 2]]])
+tensor([[[1],
+         [2]],
+
+        [[1],
+         [2]],
+
+        [[1],
+         [2]]])
+
 """

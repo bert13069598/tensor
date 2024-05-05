@@ -27,7 +27,12 @@ concatenate, cat
 ```bash
 python concatenate.py
 ```
-
+stack
+```bash
+python stack.py
+```
+#### 확장
+tile, expand(확장 + 더미 차원 추가)
 ```bash
 python tile.py
 ```
