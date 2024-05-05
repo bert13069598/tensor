@@ -8,3 +8,9 @@ pip install -r requirements.txt
 python convert.py
 ```
 
+```bash
+python reshape.py
+```
+
+
+
