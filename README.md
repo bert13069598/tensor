@@ -20,6 +20,8 @@ python concatenate.py
 python tile.py
 ```
 
+#### 분할
+split
 ```bash
-python stack.py
+python split.py
 ```
